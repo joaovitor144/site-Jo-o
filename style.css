@@ -1,13 +1,15 @@
-{
+*{
     margin: 0;
     padding: 0;
 }
 
 .cabecalho {
-    background-color: #FFFFFF;
+    background-color: #1875cc;
     color: black;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: 24px 0;
 }
 
 .cabecalho-imagem{
@@ -17,4 +19,5 @@
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
+    font-size: 40px;
 }
